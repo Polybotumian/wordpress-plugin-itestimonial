@@ -31,3 +31,6 @@ Use `[itestimonials {parameters}]` to embed testimonials with customizable setti
 - **arrows** (boolean): Show previous/next arrows for slide navigation (`true`/`false`).
 
 This setup allows you to easily customize how testimonials are displayed, providing flexibility for different layouts.
+
+![image-single-row-crousel](https://github.com/user-attachments/assets/676a5d28-4ece-4e4e-9469-948fc1d17a54)
+![image-grid](https://github.com/user-attachments/assets/13612698-4032-42f1-8159-74cfc01b6367)
