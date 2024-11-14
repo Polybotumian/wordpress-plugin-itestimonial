@@ -1,0 +1,7 @@
+.checked {
+    color: orange;
+}
+
+.unchecked {
+    color: #00000050;
+}

@@ -1,0 +1,120 @@
+.slick-slide {
+    justify-content: center;
+    align-items: center;
+}
+
+.slick-track {
+    display: inline-flex !important;
+    margin-bottom: 1em;
+}
+
+.itestimonial-slider .itestimonial-grid {
+    padding: 0;
+}
+
+.itestimonial-slide {
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    border-radius: 2%;
+    box-shadow: 0 10px 5px #0000001a;
+    padding: 20px;
+}
+
+.itestimonial-slider .itestimonial-slide {
+    margin: 0 0.2em;
+}
+
+.itestimonial-grid .itestimonial-slide {
+    margin: 0;
+}
+
+.slick-dots {
+    transform: scale(1.5) !important;
+}
+
+.custom-arrow {
+    stroke: #333;
+    transition: filter 0.3s ease;
+    transform: scale(1.5) !important;
+}
+
+.slick-next.custom-arrow:hover {
+    filter: drop-shadow(-5px 0 3px #000);
+}
+
+.slick-prev.custom-arrow:hover {
+    filter: drop-shadow(5px 0 3px #000);
+}
+
+.itestimonial-slide {
+    background: #f9f9f9;
+}
+
+.itestimonial-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.itestimonial-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.itestimonial-info {
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.itestimonial-rating {
+    display: block;
+    margin: 5px 0;
+}
+
+.itestimonial-content {
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: max-height 0.3s ease;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    text-align: -webkit-left;
+    color: #555;
+}
+
+.slick-slider.itestimonial-slider .itestimonial-content {
+    max-height: 4.5em;
+}
+
+.slick-slider.itestimonial-grid .itestimonial-content {
+    height: fit-content;
+}
+
+.itestimonial-content.expanded {
+    max-height: 21.5em;
+}
+
+.itestimonial-date {
+    font-size: 12px;
+    color: #777;
+    display: block;
+}
+
+.itestimonial-author {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    display: block;
+}
+
+.itestimonial-read-more {
+    font-size: 14px;
+    color: #AAA;
+    cursor: pointer;
+    text-decoration: none;
+}
