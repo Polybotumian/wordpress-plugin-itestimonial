@@ -61,6 +61,9 @@ jQuery(document).ready(function ($) {
                 }
             });
             $('.slick-slider.itestimonial-grid .itestimonial-content').css('height', maxHeight + 'px');
+            $('.slick-slide').each(function () {
+                $(this).children('div').addClass('itestimonial-drag');
+            });
         }
     });
 

@@ -1,11 +1,9 @@
-.slick-slide {
-    justify-content: center;
-    align-items: center;
-}
-
 .slick-track {
     display: inline-flex !important;
-    margin-bottom: 1em;
+}
+
+.itestimonial-slider .slick-track {
+    margin-bottom: 2em !important;
 }
 
 .itestimonial-slider .itestimonial-grid {
@@ -21,11 +19,17 @@
 }
 
 .itestimonial-slider .itestimonial-slide {
-    margin: 0 0.2em;
+    margin: 0 0.5em;
 }
 
 .itestimonial-grid .itestimonial-slide {
     margin: 0;
+}
+
+.itestimonial-drag {
+    display: flex;
+    gap: 1em;
+    margin-bottom: 1em !important;
 }
 
 .slick-dots {
@@ -39,11 +43,11 @@
 }
 
 .slick-next.custom-arrow:hover {
-    filter: drop-shadow(-5px 0 3px #000);
+    filter: drop-shadow(-5px 0 2px #000);
 }
 
 .slick-prev.custom-arrow:hover {
-    filter: drop-shadow(5px 0 3px #000);
+    filter: drop-shadow(5px 0 2px #000);
 }
 
 .itestimonial-slide {
@@ -80,15 +84,17 @@
     overflow: hidden;
     text-overflow: ellipsis;
     transition: max-height 0.3s ease;
-    font-size: 14px;
-    line-height: 1.5;
+    font-size: 16px;
+    line-height: 1.4;
+    text-indent: 1em;
     margin-bottom: 5px;
-    text-align: -webkit-left;
+    text-align: justify;
+    hyphens: auto;
     color: #555;
 }
 
 .slick-slider.itestimonial-slider .itestimonial-content {
-    max-height: 4.5em;
+    max-height: 4.4em;
 }
 
 .slick-slider.itestimonial-grid .itestimonial-content {
